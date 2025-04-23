@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brina e-commerce website</title>
+    <title>EcomNext</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="images/x-icon">
 
     <!-- custom css link -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- gooogle font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,39 @@
 
 </head>
 <body>
+
+    <div class="overlay " data-overlay></div>
     
+
+    <div class="model" data-model>
+
+        <div class="model-close-overlay" data-model-overlay></div>
+        
+
+        <div class="model-content">
+            <button class="model-close-btn">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="newsletter-img ">
+                <img src="./assets/images/newsletter.png" width="400" height="400" alt="">
+            </div>
+            <div class="newsletter">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">Subscribe Newsletter. </h3>
+                        <p class="newsletter-desc">Subscribe the <b>community </b>to get the latest updates and offers.</p>
+                    </div>
+                    <input type="email" name="email" class="email-field" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn-newsletter   " >Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
 
    <!-- custom js link -->
     <script src="./assets/js/script.js"></script>
