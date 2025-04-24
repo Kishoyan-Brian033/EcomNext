@@ -23,19 +23,19 @@
 
     <div class="overlay " data-overlay></div>
     
-
-    <div class="model" data-model>
+ 
+    <div class="model closed" data-model>
 
         <div class="model-close-overlay" data-model-overlay></div>
         
 
         <div class="model-content">
-            <button class="model-close-btn">
+            <button class="model-close-btn" data-model-close-btn>
                 <ion-icon name="close-outline"></ion-icon>
             </button>
 
             <div class="newsletter-img ">
-                <img src="./assets/images/newsletter.png" width="400" height="400" alt="">
+                <img src="./assets/images/newsletter.png" width="400" height="400" alt="subscribe newsletter">
             </div>
             <div class="newsletter">
                 <form action="#">
@@ -51,6 +51,119 @@
 
     </div>
 
+
+<!-- notification Toast -->
+ <div class="notification-toast closed" data-toast>
+    <button class="toast-close-btn" data-toast-close>
+        <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+        <img src="./assets/images/products/jewellery-1.jpg" alt="gold earings" width="80" height="70">
+    </div>
+
+<div class="toast-detail">
+    <p class="toast-message">Someone in new just bougth</p>
+    <p class="toast-title">Rose Gold Earings</p>
+    <p class="toast-meta">
+        <time datetime="PT2M">2 Minutes</time>ago
+    </p>
+</div>    
+ </div>
+
+
+ <!-- header -->
+  <header>
+
+    <div class="header-top">
+
+        <div class="container">
+            <ul class="hearder-social-container">
+
+                <li>
+                    <a href="#" class="social-link"></a>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link"></a>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link"></a>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </li>
+
+                <li>
+                    <a href="#" class="social-link"></a>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </li>
+
+            </ul>
+
+             <div class="header-alert-news">
+                <p>
+                    <b>Free Shipping</b>
+                    This Week Over - $55
+                </p>
+             </div>
+        
+             <div class="header-top-actions">
+
+                  <select name="currency">
+                
+                    <option value="usd">USD &dollar;</option>
+                    <option value="eur">EUR &euro;</option>
+                    <option value="gbp">GBP &pound;</option>
+                  </select>
+                    <select name="language">
+                    
+                        <option value="en-us">English</option>
+                        <option value="fr">French</option>
+                        <option value="de">German</option>
+             </div>
+              
+        </div>
+
+    </div>
+
+     <div class="header-main">
+    <div class="container">
+
+        <a href="#" class="header-logo">
+            <img src="./assets/images/logo/logo.svg" alt="Anon's logo" width="120" height="40">
+        </a>
+         
+        <div class="header-search-container">
+            <input type="text" class="header-search-field" placeholder="Search for products, brands and more....">
+            <button class="search-btn">
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+
+    </div>
+
+    <div class="headre-user-actions">
+
+        <button class="action-btn" data-user-action-btn>
+            <ion-icon name="person-outline"></ion-icon>
+        </button>
+
+        <button class="user-action-btn" data-cart-btn>
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+        </button>
+
+        
+        <button class="user-action-btn" data-cart-btn>
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+        </button>
+
+    </div>
+</div>
+     </div>
+  </header>
 
 
 

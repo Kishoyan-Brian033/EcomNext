@@ -249,11 +249,93 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: var(--salmon-pink);
     color: var(--white);
     font-weight: var(--weight-600);
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: var(--border-radius-sm);
     transition: background-color var(--transition-timing);
+    margin: auto;
+
 }
 
 .btn-newsletter:hover {
     background-color: var(--bittersweet);
+}
+
+
+/* notification toast */
+.notification-toast{
+    position:fixed;
+    bottom: 80px;
+    left: 20px;
+    right: 20px;
+    background: var(--white);
+    max-width: 300px;
+    display: flex;
+    align-items: flex-start;
+    grid-area: 15px;
+    padding: 15px;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    transform: translateX(calc(-100% - 40px));
+    z-index: 5;
+    animation: slideInOut 10s ease-in infinite;
+}
+@keyframes slideInOut {
+   
+    0%,
+    45%,
+    100% {
+        transform: translateX(calc(-100% - 40px));
+        opacity: 0;
+    }
+    50%,
+    90% {
+        transform: translateX(0);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.notification-toast.closed{
+    display: none;
+}
+.toast-close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: var(--sonic-silver);
+}
+toast-close-btn ion-icon{
+    --ionicon-stroke-width: 50px;
+}
+.toast-banner{
+    width: 70px;
+    height: 70px;
+    border: var(--border-radius-sm);
+
+}
+.taost-banner img{
+    width: 100%;
+    height: 100%;
+   object-fit: cobtain;
+   object-position: center;
+}
+.toast-detail{
+    width: calc(100% - 80px);
+    padding-right: 10px;
+
+}
+.toast-message{
+    font-size: var(--fs-10);
+    color: var(--sonic-silver);
+    margin-bottom: 8px;
+}
+.toast-title{
+    font-size: var(--fs-7);
+    font-weight: var(--weight-500);
+    color: var(--only);
+}
+.toast-meta{
+    font-size: var(--fs-9);
+    color: var(--sonic-silver);
+    margin-top: 5px;
 }
