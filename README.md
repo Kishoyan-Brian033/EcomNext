@@ -20,16 +20,19 @@ Welcome to **EcomNext**, a modern and responsive eCommerce website designed to p
 ## Screenshots
 
 ### Homepage Banner
-<img src="./assets/live-project/home.png" width="600" alt="Banner 1" />
+![Banner 1](./assets/live-project/home.png)
+
 
 ### Product Showcase
-<img src="./assets/live-project/showcase1.png" width="600" alt="Product Showcase 1" />
+![Product Showcase 1](./assets/live-project/showcase1.png)
+![Product Showcase 2](./assets/images/products/2.jpg)
+![Product Showcase 3](./assets/images/products/3.jpg)
 
 ### Responsive
-<img src="./assets/live-project/responsive.png" width="600" alt="Testimonial" />
+![Testimonial](./assets/live-project/responsive.png)
 
 ### Footer 
-<img src="./assets/live-project/footer.png" width="600" alt="Testimonial" />
+![Testimonial](./assets/live-project/fo.png)
 
 ---
 
@@ -38,6 +41,8 @@ Welcome to **EcomNext**, a modern and responsive eCommerce website designed to p
 The project is deployed on Vercel. You can view the live site here:
 
 [Live Demo - Vercel Link](https://ecom-next-6i4m6njo0-brians-projects-bcfd072c.vercel.app/)
+
+
 
 ---
 
