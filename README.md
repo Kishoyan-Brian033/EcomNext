@@ -25,14 +25,13 @@ Welcome to **EcomNext**, a modern and responsive eCommerce website designed to p
 
 ### Product Showcase
 ![Product Showcase 1](./assets/live-project/showcase1.png)
-![Product Showcase 2](./assets/images/products/2.jpg)
-![Product Showcase 3](./assets/images/products/3.jpg)
+
 
 ### Responsive
 ![Testimonial](./assets/live-project/responsive.png)
 
 ### Footer 
-![Testimonial](./assets/live-project/fo.png)
+![Testimonial](./assets/live-project/footer.png)
 
 ---
 
