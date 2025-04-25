@@ -10,6 +10,8 @@ The project is deployed on Vercel. You can view the live site here:
 
 [Live Demo - Vercel Link](https://ecom-next-6i4m6njo0-brians-projects-bcfd072c.vercel.app/)
 
+---
+
 ## Features
 
 - Responsive design optimized for desktop and mobile devices.
