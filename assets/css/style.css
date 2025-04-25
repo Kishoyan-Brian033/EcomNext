@@ -337,5 +337,4 @@ toast-close-btn ion-icon{
 .toast-meta{
     font-size: var(--fs-9);
     color: var(--sonic-silver);
-    margin-top: 5px;
 }
